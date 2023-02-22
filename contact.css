@@ -1,0 +1,144 @@
+body{
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  background-color: black;
+  align-items: center;
+}
+.inner {
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  color: white;
+}
+.menu-btn{
+  display: none;
+}
+nav {
+  display: flex;
+  gap: 30px;
+  color: aliceblue;
+}
+.circlewrap {
+  display: flex;
+  gap: 8px;
+}
+nav a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+nav a:hover {
+  /* border-bottom: 3px solid black; */
+  color: rgb(197, 138, 197);
+  transition: all 0.2s ease-in-out;
+}
+
+.circle {
+  color: black;
+  padding: 14px;
+  border-radius: 100%;
+  background-color: white;
+  margin: 20px;
+}
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 30px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 120px;
+  gap: 30px;
+}
+.nasa {
+  width: 100%;
+  min-height: 450px;
+  background-color: black;
+  box-sizing: border-box;
+  font-family: muli;
+}
+.discusstitle {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.2em;
+  padding: 150px 0px 0px;
+  margin: 0px 0px 8px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.desc {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.aboutdesc {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 30px;
+  margin-top: 12px;
+  text-align: center;
+}
+.des {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.footers {
+  padding: 30px;
+  border-bottom: 1px solid gray;
+}
+.footers {
+  display: flex;
+  justify-content: space-between;
+}
+p {
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+}
+.circle {
+  margin: 20px;
+}
+.wrapper i {
+  font-size: 40px;
+}
+.wrapper a {
+  text-decoration: none;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+/* start of media query */
+ @media (min-width:200px) and (max-width:768px){
+  nav {
+    display: none;
+  }
+
+  .wrapper{
+    display: grid;
+  }
+  .circle{
+    display: none;
+  }
+  .menu-btn{
+    display: flex;
+    padding-left: 150px;
+    color: white;
+  }
+  }
+

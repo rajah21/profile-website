@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+  height: 80px;
+  background-color: black;
+  font-size: 20px;
+  align-items: center;
+}
+.inner {
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  color: white;
+}
+.menu-btn {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  display: none;
+  z-index: 10;
+}
+nav {
+  display: flex;
+  gap: 30px;
+  color: aliceblue;
+}
+.circlewrap {
+  display: flex;
+  gap: 8px;
+}
+nav a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+nav a:hover {
+  /* border-bottom: 3px solid black; */
+  color: rgb(197, 138, 197);
+  transition: all 0.2s ease-in-out;
+}
+.circle {
+  padding: 10px;
+  border-radius: 100%;
+  color: black;
+  background-color: white;
+}
+.banner {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0 0 0 5%;
+  background-color: rgb(164, 59, 164);
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px 0;
+  min-height: 600px;
+}
+.intro {
+  font-size: 50px;
+  text-transform: capitalize;
+}
+.band {
+  font-size: 40px;
+  text-transform: capitalize;
+}
+.btn {
+  font-size: 24px;
+  font-family: monospace;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  border: 2px solid black;
+  padding: 20px 30px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.btnwrap {
+  margin-top: 80px;
+}
+
+.introtext {
+  flex: 1;
+}
+.intro {
+  padding-top: 120px;
+  margin-bottom: 50px;
+}
+.bannerimg {
+  flex: 1;
+  display: flex;
+  padding-top: 80px;
+  justify-content: center;
+  align-items: center;
+}
+.bannerimg img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 100%;
+  box-shadow: 1px 12px 13px rgba(0, 0, 0, 0.4);
+}
+.hero {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 50px;
+  margin-top: 80px;
+  font-family: cursive;
+}
+.container {
+  display: flex;
+  padding: 80px 5%;
+  gap: 40px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card {
+  min-height: 200px;
+  background-color: white;
+  background-clip: border-box;
+  border: 1.8px solid gray;
+  border-radius: 0.25rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+  text-transform: capitalize;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.4) 3px 3px 3px;
+  padding: 20px 30px;
+}
+
+h3 {
+  padding-bottom: 50px;
+}
+img {
+  height: 100px;
+}
+.container p {
+  padding-top: 70px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+  /* padding-left: 80px; */
+  margin-bottom: 10px;
+  font-family: muli;
+}
+
+.ctrl {
+  display: flex;
+  padding: 80px 10%;
+  gap: 40px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.insidep {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+  /* background-color: black; */
+  color: gray;
+  padding: 4px 0;
+  line-height: 45px;
+  margin-bottom: 55px;
+}
+.wrap {
+  margin-top: 15px;
+  flex: 1;
+  padding-left: 2%;
+}
+.nob {
+  flex: 1.1;
+}
+a {
+  font-size: 20px;
+  /* padding-left: 50px; */
+  text-transform: capitalize;
+  text-decoration: dashed;
+}
+.aboutone {
+  font-family: muli;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+  text-transform: capitalize;
+}
+.imagewrap {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.box {
+  flex: 1.1;
+  height: 300px;
+  background: url(images/pexels-designecologist-1779487.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-clip: border-box;
+  border: 1.8px solid gray;
+  border-radius: 0.25rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+  text-transform: capitalize;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.4) 3px 3px 3px;
+  padding: 20px 30px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  margin: 20px;
+  color: white;
+  font-size: 40px;
+}
+.boxx {
+  flex: 1.1;
+  height: 300px;
+
+  background: url(images/pexels-tranmautritam-251225.jpg);
+  background-size: cover;
+  background-clip: border-box;
+  border: 1.8px solid gray;
+  border-radius: 0.25rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+  text-transform: capitalize;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.4) 3px 3px 3px;
+  padding: 20px 30px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  font-size: 30px;
+  margin: 20px;
+}
+.nasa {
+  width: 100%;
+  min-height: 450px;
+  background-color: rgba(0, 0, 0, 0.923);
+  box-sizing: border-box;
+  font-family: muli;
+}
+.discusstitle {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.2em;
+  padding: 150px 0px 0px;
+  margin: 0px 0px 8px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.desc {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.aboutdesc {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 30px;
+  margin-top: 12px;
+  text-align: center;
+}
+.des {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.footers {
+  padding: 30px;
+  border-bottom: 1px solid gray;
+}
+.footers {
+  display: flex;
+  justify-content: space-between;
+}
+.card p {
+  text-align: center;
+  /* padding: 50px; */
+  font-size: 20px;
+  color: black;
+}
+.circle {
+  margin: 20px;
+}
+
+p {
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+}
+.rob {
+  height: 100px;
+}
+.nob {
+  padding: 50px;
+}
+
+.nob img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 3px 3px purple;
+  /* position: relative; */
+  top: 110px;
+}
+.bob {
+  height: 300px;
+}
+
+header nav.show {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 60vw;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  right: -100%;
+  top: 0;
+  animation: slide 0.3s ease-in-out forwards;
+}
+
+@keyframes slide {
+  100% {
+    right: 0;
+  }
+}
+/* start of media query */
+@media (min-width: 200px) and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+  .banner {
+    height: 700px;
+  }
+  .bannerimg {
+    display: none;
+  }
+  .btn {
+    font-size: 15px;
+  }
+  .imagewrap {
+    display: grid;
+  }
+  .nob {
+    flex: none;
+  }
+  .menu-btn {
+    display: flex;
+    color: white;
+    margin-right: 5%;
+  }
+  .circle {
+    display: none;
+  }
+}
