@@ -84,7 +84,9 @@ nav a:hover {
   color: white;
   cursor: pointer;
   margin-bottom: 30px;
+  
 }
+
 .btnwrap {
   margin-top: 80px;
 }
@@ -167,7 +169,7 @@ h1 {
   font-weight: 400;
   text-transform: capitalize;
   /* background-color: black; */
-  color: gray;
+  color: black;
   padding: 4px 0;
   line-height: 45px;
   margin-bottom: 55px;
